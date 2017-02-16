@@ -132,8 +132,8 @@ static struct pci_driver rtl88ee_driver = {
 
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Valerie Henson <val@nmt.edu>");
-MODULE_DESCRIPTION("\"Hello, world!\" minimal module");
-MODULE_VERSION("printk");
+MODULE_AUTHOR("Edson J. Drosdeck <edsonsbs_2007@yahoo.com.br>");
+MODULE_DESCRIPTION("rtl8188ee device driver");
+//MODULE_VERSION("printk");
 
 module_pci_driver(rtl88ee_driver);
